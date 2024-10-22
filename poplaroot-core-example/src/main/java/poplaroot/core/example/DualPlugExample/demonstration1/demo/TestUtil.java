@@ -7,7 +7,7 @@ import com.tunjix.poplaroot.api.annotations.AspectEnhancerMethod;
  * AUTHOR: XirALi · MaMat（西尔艾力·买买提）
  * DATE: 2024/10/22 00:08
  */
-@AspectEnhancer(AspectClasses = {MyTest.class})
+@AspectEnhancer(AspectClasses = {Enhance.class})
 public class TestUtil {
     @AspectEnhancerMethod
     public static String test01(){

@@ -1,4 +1,4 @@
-package poplaroot.core.example.DualPlugExample.demonstration1.demo;
+package poplaroot.core.example.DualPlugExample.demonstration3.demo;
 
 import com.tunjix.poplaroot.api.annotations.AspectEnhancer;
 import com.tunjix.poplaroot.api.annotations.AspectEnhancerMethod;
@@ -11,7 +11,13 @@ import com.tunjix.poplaroot.api.annotations.AspectEnhancerMethod;
 public class TestUtil {
     @AspectEnhancerMethod
     public static String test01(){
-        System.out.println("com.tunjix.poplaroot.core.example.DualPlugExample.demonstration1.demo.TestUtil.test01");
-        return "ok";
+        System.out.println("demonstration3.demo.TestUtil.test01");
+        return "test01--ok";
+    }
+
+    @AspectEnhancerMethod
+    public String test02(){
+        System.out.println("demonstration3.demo.TestUtil.test02");
+        return "test02--ok";
     }
 }

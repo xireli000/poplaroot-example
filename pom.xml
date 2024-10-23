@@ -16,7 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
-    <poplaroot-core-version>0.0.13-beta</poplaroot-core-version>
+    <poplaroot-core-version>0.0.14-beta</poplaroot-core-version>
   </properties>
 
   <dependencyManagement>
@@ -28,4 +28,14 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+<!--  <dependencies>-->
+<!--    <dependency>-->
+<!--      <groupId>com.tunjix</groupId>-->
+<!--      <artifactId>poplaroot-core</artifactId>-->
+<!--      <version>${poplaroot-core-version}</version>-->
+<!--&lt;!&ndash;      <scope>system</scope>&ndash;&gt;-->
+<!--&lt;!&ndash;      <systemPath>/Users/xireli/Documents/java/program/maven361/repository/com/tunjix/poplaroot-core/0.0.14-beta/poplaroot-core-0.0.14-beta.jar</systemPath>&ndash;&gt;-->
+<!--    </dependency>-->
+<!--  </dependencies>-->
 </project>

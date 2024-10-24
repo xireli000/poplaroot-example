@@ -1,4 +1,4 @@
-package poplaroot.core.example.DualPlugExample.demonstration5;
+package poplaroot.core.example.DualPlugExample.demonstration6;
 
 import com.tunjix.poplaroot.core.PoplarRoot;
 import com.tunjix.poplaroot.core.dualplug.annotations.PoplarRootApplication;

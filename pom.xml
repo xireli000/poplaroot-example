@@ -16,7 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
-    <poplaroot-core-version>0.0.14-beta</poplaroot-core-version>
+    <poplaroot-core-version>0.0.16-beta</poplaroot-core-version>
   </properties>
 
   <dependencyManagement>

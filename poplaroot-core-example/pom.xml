@@ -20,17 +20,6 @@
         <dependency>
             <groupId>com.tunjix</groupId>
             <artifactId>poplaroot-core</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.tunjix</groupId>
-                    <artifactId>poplaroot-api</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.tunjix</groupId>
-            <artifactId>poplaroot-api</artifactId>
-            <version>0.0.14.1-beta</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>

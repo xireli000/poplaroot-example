@@ -32,5 +32,10 @@
             <artifactId>poplaroot-api</artifactId>
             <version>0.0.14.1-beta</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.17.0</version>
+        </dependency>
     </dependencies>
 </project>

@@ -1,14 +1,14 @@
-package poplaroot.core.example.DualPlugExample.demonstration3;
+package poplaroot.core.example.DualPlugExample.demonstration4;
 
 import com.tunjix.poplaroot.core.PoplarRoot;
 import com.tunjix.poplaroot.core.dualplug.annotations.PoplarRootApplication;
-import poplaroot.core.example.DualPlugExample.demonstration3.demo.TestUtil;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * AUTHOR: XirALi · MaMat（西尔艾力·买买提）
  * DATE: 2024/10/21 23:50
  */
-@PoplarRootApplication
+@PoplarRootApplication(scanPackageClasses = {StringUtils.class})
 public class Main {
     public static void main(String[] args) {
         PoplarRoot.run();//启动PoplarRoot
@@ -16,9 +16,7 @@ public class Main {
     }
 
     public static void demonstration(){
-        String response1 = TestUtil.test01();
-        System.out.println(response1);
-        String response2 = new TestUtil().test02();
-        System.out.println(response2);
+        String response = StringUtils.upperCase("poplaroot");
+        System.out.println("StringUtils.upperCase 返回结果："+response);
     }
 }

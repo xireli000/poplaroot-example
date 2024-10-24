@@ -11,6 +11,6 @@ import com.tunjix.poplaroot.api.core.DualPlugRunPostProcessor;
 public class PoplarootPostProcessor implements DualPlugRunPostProcessor {
     @Override
     public void runPostProcessor() {
-        System.out.println("poplaroot spi 后置处理器 SPIPoplarootPostProcessor");
+        System.out.println("poplaroot spi 后置处理器 PoplarootPostProcessor");
     }
 }

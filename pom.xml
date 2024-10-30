@@ -10,6 +10,7 @@
   <name>poplaroot-example</name>
   <modules>
     <module>poplaroot-core-example</module>
+    <module>poplaroot-communication-example</module>
   </modules>
 
   <properties>
@@ -22,9 +23,10 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.tunjix</groupId>
-        <artifactId>poplaroot-core</artifactId>
-        <version>${poplaroot-core-version}</version>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.24</version>
+        <scope>provided</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>

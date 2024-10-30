@@ -1,0 +1,30 @@
+local:
+  services:
+      nodes:
+        - ip: 127.0.0.1
+          port: 8080
+#        - ip: 127.0.0.1
+#          port: 8007
+communication:
+#  serializeBufferSize: 2048
+#  serializeBufferPoolSize: 30
+#  maxFrameLength: 131072
+#  serializePoolSize: 200
+#  clientPoolSize: 20
+#  serverPoolSize: 20
+  applicationName: Communication-Example-Service
+#  consumerPool:
+#    corePoolSize: 8
+#    maxPoolSize: 16
+#    poolQueueSize: 1028
+#  servicePool:
+#    maxPoolSize: 18
+#    keepAliveTime: 70
+#    poolQueueSize: 1029
+#  services:
+#    - name: A
+#      nodes:
+#        - ip: 127.0.0.1
+#          port: 8080
+#        - ip: 127.0.0.1
+#          port: 8007

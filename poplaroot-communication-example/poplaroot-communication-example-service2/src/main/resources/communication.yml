@@ -3,8 +3,8 @@ local:
       nodes:
         - ip: 127.0.0.1
           port: 8080
-#        - ip: 127.0.0.1
-#          port: 8007
+        - ip: 127.0.0.1
+          port: 8007
 communication:
 #  serializeBufferSize: 2048
 #  serializeBufferPoolSize: 30

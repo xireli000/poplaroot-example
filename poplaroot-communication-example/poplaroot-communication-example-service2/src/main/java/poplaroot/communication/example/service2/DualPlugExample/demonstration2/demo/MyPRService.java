@@ -2,7 +2,6 @@ package poplaroot.communication.example.service2.DualPlugExample.demonstration2.
 
 import com.tunjix.poplaroot.communication.api.annotations.PRService;
 import com.tunjix.poplaroot.communication.api.annotations.RpcMethod;
-import java.util.HashMap;
 
 /**
  * AUTHOR: XirALi · MaMat（西尔艾力·买买提）

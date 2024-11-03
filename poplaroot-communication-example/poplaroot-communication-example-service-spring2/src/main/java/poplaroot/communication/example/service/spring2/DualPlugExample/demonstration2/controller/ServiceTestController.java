@@ -3,9 +3,9 @@ package poplaroot.communication.example.service.spring2.DualPlugExample.demonstr
 import com.tunjix.poplaroot.communication.api.annotations.PRService;
 import com.tunjix.poplaroot.communication.api.annotations.RpcMethod;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import poplaroot.communication.example.service.spring2.DualPlugExample.demonstration1.entty.ServiceResponseDTO;
+import poplaroot.communication.example.service.spring2.DualPlugExample.demonstration1.entty.ServiceRpcExtend;
 import poplaroot.communication.example.service.spring2.DualPlugExample.demonstration2.service.MyPRService;
 
 /**
@@ -24,5 +24,11 @@ public class ServiceTestController {
     @RpcMethod(name = "/getStr")
     public String getStr(){
         return myPRService.getPoplarootStr()+" Spring Boot";
+    }
+
+    @PostMapping("/getServiceServiceRpcExtend")
+    @RpcMethod(name = "/getStr2")
+    public ServiceResponseDTO getServiceServiceRpcExtend(@RequestBody ServiceRpcExtend serviceRpcExtend){
+        return myPRService.getServiceServiceRpcExtend("123",serviceRpcExtend);
     }
 }
